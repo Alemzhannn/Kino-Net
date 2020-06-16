@@ -1,0 +1,420 @@
+body{
+  background-color: /*#141414*/ #252525;
+}
+
+header{
+  border: 1px solid #d7263d;
+  padding: 1em;
+  color:white;
+  clear: left;
+  margin: -8px;
+}
+
+@keyframes slider{
+  0%{
+    left: 0;
+  }
+20%{
+  left: 0;
+}
+25%{
+  left: -100%;
+}
+45%{
+  left: -100%;
+}
+50%{
+  left: -200%;
+}
+70%{
+  left: -200%;
+}
+75%{
+  left: -300%;
+}
+95%{
+  left: -300%;
+}
+100%{
+  left: -400%;
+}
+
+}
+#slider{
+  overflow: hidden;
+  margin: -16px;
+}
+#slider figure img{
+  width: 4.8%;
+  float: left;
+}
+#slider figure{
+  position: relative;
+  width: 694%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 19s slider infinite alternate;
+}
+
+
+
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: none;
+  text-align: center;
+}
+#stranica{
+  margin-top: -20px;
+  margin-left: 250px;
+}
+.jumbotron {
+  background-image: url("bg.png");
+  height: 1050px;
+  background-position: bottom center;
+}
+
+h1 {
+  color: #FFF;
+  font-family: 'Ruda', sans-serif;
+  font-size: 70px;
+  font-weight: 900;
+  margin: 0;
+  padding-top: 120px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: white;
+  font-family: trebuchet;
+  margin: 0;
+  text-align: left;
+  font-size: 65px;
+}
+
+h3 {
+  color: #D7263D;
+  font-family: garamond;
+  font-size: 15px;
+  margin: 0;
+  position: relative;
+  text-align: left;
+  text-transform: uppercase;
+}
+p {
+  color: white;
+  font-family: garamond;
+  margin: 0;
+  text-align: left;
+  font-size: 25px;
+}
+
+.films {
+  margin: 60px auto;
+  padding: 10px 0px 0px 0px;
+  width: 85%;
+ border: 1px solid #2a2a2a;
+  border-radius: 10px;
+  box-shadow: 0 0 10px;
+}
+
+.pic-img {
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px solid #252525;
+   box-shadow: 0 8px 11px 0 rgba(0, 0, 0, 0.6), 0 7px 25px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hotel-description {
+  display: inline-block;
+  width: 70%;
+}
+
+.book {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.ashniki {
+  background-color: #d7263d;
+  color: #FFF;
+  display: block;
+  font-family: mistral;
+  font-size: 20px;
+  padding: 14px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 0px 0px 1px 1px solid #e6502e;
+  border-radius: 0px 0px 8px 8px;
+}
+.ashniki:hover{
+  background-color: #5b5b73;
+  cursor: pointer;
+  color: #d7263d;
+}
+.ulichki {
+  padding: 0;
+  margin: 10px 0px;
+}
+
+.lilia {
+  margin: 0;
+  list-style: none;
+}
+
+
+.ulik {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.zhanr{
+  color: white;
+  font-family: roman;
+  font-size: 18px; 
+  text-decoration: none;
+}
+.zhanr:hover{
+  text-decoration: none;
+  color: #D7263D;
+}
+#First_div{
+  float: center;
+  position: absolute;
+  margin-right: 70%;
+  margin-top: 48px;
+  margin-left: 40px;
+
+  }
+  .luki{
+  margin: 5px;
+}
+
+.footer {
+  background-color: none;
+  color: #fff;
+  padding: 30px 0;
+    width: 100%;
+}
+
+.footer p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.moanali{
+  margin: 0;
+  list-style: none;
+  margin-top: 50px;
+}
+.moanaul{
+  padding: 1em;
+  margin: 10px 0px;
+}
+.hotel-description-moana{
+  display: inline;
+  width: 40%;
+}
+.moanasmo{
+  margin: 0;
+  list-style: none;
+  margin-top: 50px;
+
+}
+
+.search-box{
+display: inline-flex;
+font-size: 20px;
+margin-left: 860px;
+margin-top: 40px;
+}
+.search-box-input{
+  font-size: inherit;
+border: 0.2em solid #d7263d;
+border-radius: 0.5em 0 0 0.5em;
+padding: 0.2em 0.5em; 
+outline: 0;
+}
+.search-box-input:hover,
+.search-box-input:focus{
+  border-color: #9d2232;
+}
+.search-box-button{
+font-size: inherit;
+border: 0.2em solid #d7263d;
+border-radius: 0 0.5em 0.5em 0;
+background-color: #d7263d;
+border-left: 0;
+padding: 0 0.75em;
+color: #252525;
+font-weight:bold;
+outline: 0;
+cursor: pointer;
+}
+.search-box-button:hover,
+.search-box-button:focus{
+  border-color: #9d2232;
+  background-color: #9d2232;
+}
+.logo{
+  animation: logo 5s linear infinite;
+}
+@keyframes logo{
+  0% {transform: rotateY(0deg);}
+  100%{transform: rotateY(360deg);}
+}
+#stars > span{
+  display: inline-block;
+  font-size: 40px;
+  color: #2733a5;
+}
+#stars:hover > span:before{
+  content: '\2605';
+  position: absolute;
+
+}
+#stars > span:hover ~ span:before{
+  content: '';
+}
+#stars{
+  margin-top: -42px;
+  margin-right: 325px;
+}
+.pocenka{
+  color: #d7263d;
+  margin-top: 20px;
+}
+.ocenka{
+  margin-top: 90px;
+  margin-left: -4px;
+  border: 1px solid #2a2a2a; 
+  padding: 0.5em; 
+  border-radius: 10px;  
+  box-shadow: 0 0 10px;
+
+}
+.pagination{
+  display: inline-block;
+}
+.pagination li{
+  display: inline;
+}
+.pagination li a{
+  background-color: #d7263d;
+  color: white;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #d7263d;
+  margin: 0 4px;
+}
+.pagination li a .active{
+  background-color: white;
+  color: white; 
+  border-radius: 5px;
+}
+.pagination li a:hover:not(.active){
+  background-color: #5b5b73;
+  color: #d7263d; 
+}
+.active:hover{
+background-color: #5b5b73;
+color: #d7263d;
+}
+
+
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+    margin-top: 950px;
+}
+
+
+#mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#about {
+    top: 20px;
+    background-color: #4c75a3;
+}
+
+#blog {
+    top: 90px;
+    background-color: #eaab69; /* Blue */
+}
+
+#contact {
+    top: 230px;
+    background-color: #c3524e; /* Light Black */
+}
+#login{
+  top: 160px;
+  background-color: #92e3f7;
+}
+#aboutus{
+  top: 230px;
+  background-color: none;
+}
+
+.piko{
+  margin-top: -350px;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 15px;
+  color: #8afffb;
+}
+.piko2{
+  margin-top: -270px;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 15px;
+  color: #8afffb;
+}
+
+.piko3{
+  margin-top: -230px;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 15px;
+  color: #8afffb;
+}
+.piko4{
+    margin-top: -190px;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 15px;
+  color: #8afffb;
+}
+.piko5{
+  margin-top: -310px;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 15px;
+  color: #8afffb;
+}
+#upbutton{
+  position: absolute;
+  margin-top: -190px;
+  margin-left: 1040px;
+  border: 1px solid gray;
+  border-radius: 10px;
+
+}
